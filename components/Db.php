@@ -19,6 +19,7 @@ class Db
         $row = mysqli_fetch_array($query);
         echo '<pre>';
         print_r($row);
+        print_r($query);
 
     }
 }
